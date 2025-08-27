@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+:root {
+  --brand: #4f46e5; /* indigo-600 */
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+.container {
+  @apply mx-auto px-6 md:px-12;
+}
